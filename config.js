@@ -16,9 +16,9 @@ var config = {
             id: 'slug-style-id',
             alignment: 'left',
             hidden: false,
-            title: 'The Creative Village',
-            image: 'https://drive.google.com/uc?export=view&id=1aUyoVrDDZA4EK072xl7xyDbS3eVrPDZc',
-            description: 'The Creative Village is a sustainable, viable space that creates a platform for the attraction and development of a creative class in industries with low-level technology, mainly in the fields of culture and art. It is reliant on eco-oriented processes involving local lifestyles, a clean environment and necessary equipment. This village provides equal benefit to a rural community, its creative class and the consumer of rural creative products. Wealth creation in such villages (Soares da Silva, D., Figueiredo, E., C Eus-ebio, C., & Maria Joao Carneiro, M., 2016) comes from the products of the creative class. These products are complementary to the essential activities of the village (traditional village industry and so forth).',
+            title: 'Existing Creative Villages in the Province of Bohol',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/screenshot.png?raw=true',
+            description: '',
             location: {
                 center: [124.1637, 9.9],
                 zoom: 9.8,
@@ -41,6 +41,31 @@ var config = {
                 //     opacity: 0
                 // }
             ]
+        },
+        {
+            id: 'second-identifier',
+            alignment: 'right',
+            hidden: false,
+            title: 'Tarsier Sanctuary',
+            image: 'https://drive.google.com/uc?export=view&id=14tnFL9fUfeGFR3OSAPkvMtWCKNEca27R',
+            description: 'The Philippine Tarsier Sanctuary is an eco-tourism destination located in Corella, Bohol. It is where you can see and visit the smallest primates that are mostly found in Southeast Asia — tarsiers.',
+            location: {
+                center: [123.9504995, 9.6898966],
+                zoom: 14,
+                pitch: 60,
+                bearing: -43.2,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
         },
         {
             id: 'second-identifier',
