@@ -62,102 +62,14 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'second-identifier',
+            id: '1-identifier',
             alignment: 'right',
             hidden: false,
-            title: 'Tarsier Sanctuary',
-            image: 'https://drive.google.com/uc?export=view&id=14tnFL9fUfeGFR3OSAPkvMtWCKNEca27R',
-            description: 'The Philippine Tarsier Sanctuary is an eco-tourism destination located in Corella, Bohol. It is where you can see and visit the smallest primates that are mostly found in Southeast Asia — tarsiers.',
+            title: 'Baclayon Broa Making',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Enterprise-Based/Baclayon%20Broa%20Making/Baclayon%20Broa%20Making.JPG?raw=true',
+            description: '',
             location: {
-                center: [123.9504995, 9.6898966],
-                zoom: 14,
-                pitch: 60,
-                bearing: -43.2,
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'third-identifier',
-            alignment: 'left',
-            hidden: false,
-            title: 'Sipatan Twin Hanging Bridge',
-            image: 'https://drive.google.com/uc?export=view&id=1FvSDTTpcMDvtH0d1QzKC5vMpvwmGavGv',
-            description: 'Traditionally built with only bamboo, the once single bridge that was constructed to cross the Sipatan river is now made of steel cables and has doubled to sustain the foot traffic from tourists and locals who pass by them. It spans a length of 40 meters and a height of 20 meters, with a deck bridge of woven bamboo slats and a great view of the Sipatan river below. Although both bridges are secure, they still are prone to shaking from the weight of passers-by, which will heighten the fun for adrenaline junkies.',
-            location: {
-                center: [124.0479524, 9.675339],
-                zoom: 14,
-                pitch: 60,
-                bearing: -43.2
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'fourth-identifier',
-            alignment: 'right',
-            hidden: false,
-            title: 'Loboc Musical Tradition and Heritage',
-            image: 'https://drive.google.com/uc?export=view&id=1PCCdlUVh-8hEyYKWKYacUzxhViDKnEKW',
-            description: 'The municipality of Loboc had always been known for its musical heritage. Musicians from Loboc had been recognized and invited to perform within and outside Bohol Province. However, the municipal government observed the decreasing number of musicians in Loboc. In a bid to revive the municipality’s musical heritage, the Loboc Music Program was launched to provide free education to the youth to encourage them to take up music as a profession. The program offers alternative sources of livelihood while promoting youth development for its constituency.',
-            location: {
-                center: [124.0246558, 9.6377256],
-                zoom: 14,
-                pitch: 60,
-                bearing: -43.2,
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'fifth-identifier',
-            alignment: 'left',
-            hidden: false,
-            title: 'Loom Weaving',
-            image: 'https://drive.google.com/uc?export=view&id=1Nve9Zh6I3AyCjAx-FQC0pjwqEsL2hWi8',
-            description: 'Funded by the municipality of Albur, a weaving shed made of bamboo with zinc roofing was built in Basacdacu housing 20 looms made by local carpenters. This is now the Center wherein the buri cloth is produced. The weavers are extended financial help from the Self-Employment Assistant Program (SEAP) of the Social Welfare Program. Such funds are used in buying the “spears of young buri leaves which is obtained from the town of Inabanga.',
-            location: {
-                center: [123.9550687, 9.647299],
-                zoom: 14,
-                pitch: 60,
-                bearing: -43.2
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'sixth-identifier',
-            alignment: 'right',
-            hidden: false,
-            title: 'Baclayon Art Museum',
-            image: 'https://drive.google.com/uc?export=view&id=1Pq4YWABYnzLyDotYtzbVkw7dhGHAhVWY',
-            description: 'Housed inside the old convent adjacent to the church is the museum, which displays religious artifacts during the Spanish colonial period.  Among its collections are are vestments, Latin hymnals with carabao skin covers and sheepskin pages, images and statues of saints, ceremonial artifacts and paintings by local artist Liberato Gatchalian.',
-            location: {
-                center: [123.9132011, 9.6229055],
+                center: [123.91220, 9.62345],
                 zoom: 17,
                 pitch: 60,
                 bearing: -43.2,
@@ -175,17 +87,281 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'seventh-identifier',
+            id: '2-identifier',
             alignment: 'left',
             hidden: false,
-            title: 'Loay, coz why not?',
-            image: 'https://drive.google.com/uc?export=view&id=1pbH2EwP4HC44tUxl1iDnWf26d-kjHi5j',
-            description: 'The Clarin Ancestral House dates back to 1840. Traditional Filipino-Spanish in design with long slanting roofs covered with nipa leaves, it is a typical one big square house with a coral stone foundation, rough-hewn wooden posts, wooden walls and floors of wide hardwood planks and a receiving hall with a high vaulted ceiling. Although the ceiling beams are in urgent need of repair being damaged by termites, the whole house is relatively in good condition.',
+            title: 'Albur Calamay Industry',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Enterprise-Based/Albur/Albur%20Calamay%20Industry.JPEG?raw=true',
+            description: '',
             location: {
-                center: [124.0107708, 9.6006407],
+                center: [123.95403, 9.61492],
                 zoom: 17,
                 pitch: 60,
-                bearing: -43.2
+                bearing: 43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '3-identifier',
+            alignment: 'right',
+            hidden: false,
+            title: 'Basacdacu Loom Weaving',
+            image: '',
+            description: '',
+            location: {
+                center: [123.95353, 9.64338],
+                zoom: 17,
+                pitch: 60,
+                bearing: -43.2,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '4-identifier',
+            alignment: 'left',
+            hidden: false,
+            title: 'Asin Tibuok',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Enterprise-Based/Albur/Albur%20Asin%20tibuok.jpeg?raw=true',
+            description: '',
+            location: {
+                center: [123.96718, 9.60337],
+                zoom: 17,
+                pitch: 60,
+                bearing: 43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '5-identifier',
+            alignment: 'right',
+            hidden: false,
+            title: 'Loay Ironsmith Workshop',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Enterprise-Based/Loay%20Ironsmith%20Workshop/Loay%20Ironsmith%20Workshop.jpg?raw=true',
+            description: '',
+            location: {
+                center: [124.00098, 9.60597],
+                zoom: 17,
+                pitch: 60,
+                bearing: -180,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '6-identifier',
+            alignment: 'left',
+            hidden: false,
+            title: 'Sevilla Crunchy KabKab Industry Tour ',
+            image: '',
+            description: '',
+            location: {
+                center: [124.04737, 9.67507],
+                zoom: 17,
+                pitch: 60,
+                bearing: 250
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '7-identifier',
+            alignment: 'right',
+            hidden: false,
+            title: 'Batuan Balay sa Humay ',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Enterprise-Based/Batuan%20Balay%20sa%20Humay/Balay%20sa%20Humay.jpg?raw=true',
+            description: '',
+            location: {
+                center: [124.14426, 9.77480],
+                zoom: 17,
+                pitch: 60,
+                bearing: -10.2,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '8-identifier',
+            alignment: 'left',
+            hidden: false,
+            title: 'Antequera Farm and Crafts Village Tour',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Enterprise-Based/Antequera%20Farm%20and%20Crafts%20Village%20Tour/Antequera%20Farm%20and%20Crafts%20Village%20Tour%202.jpg?raw=true',
+            description: '',
+            location: {
+                center: [123.89830, 9.78066],
+                zoom: 17,
+                pitch: 60,
+                bearing: 43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '9-identifier',
+            alignment: 'right',
+            hidden: false,
+            title: 'Cambuhat River and Oyster Farm',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Enterprise-Based/Buenavista%20Cambuhat%20River%20and%20Oyster%20Farm/Buenavista%20Cambuhat%20River%20and%20Oyster%20Farm%203.jpg?raw=true',
+            description: '',
+            location: {
+                center: [124.10022, 10.06198],
+                zoom: 17,
+                pitch: 60,
+                bearing: -43.2,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '10-identifier',
+            alignment: 'left',
+            hidden: false,
+            title: 'Inabanga Bohol Beads and Fiber',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Enterprise-Based/Inabanga%20Bohol%20Beads%20and%20Fiber/Bohol%20beads%20and%20fiber.jpg?raw=true',
+            description: '',
+            location: {
+                center: [124.06701, 10.02954],
+                zoom: 17,
+                pitch: 60,
+                bearing: 43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '11-identifier',
+            alignment: 'right',
+            hidden: false,
+            title: 'Tubigon Loom Weaving ',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Enterprise-Based/Tubigon%20Loom%20Weaving/Tubigon%20Loom%20Weaving.jpg?raw=true',
+            description: '',
+            location: {
+                center: [123.94875, 9.93587],
+                zoom: 17,
+                pitch: 60,
+                bearing: -180,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '12-identifier',
+            alignment: 'left',
+            hidden: false,
+            title: 'Calape Takla and Mudcrab Culture Community',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Enterprise-Based/Calape%20Takla%20and%20Mudrab%20Culture%20Community/Calape%20Takla%20and%20Mudcrab%201.jpg?raw=true',
+            description: '',
+            location: {
+                center: [123.90643, 9.91921],
+                zoom: 17,
+                pitch: 60,
+                bearing: 250
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '13-identifier',
+            alignment: 'right',
+            hidden: false,
+            title: 'Jagna Calamay Industry',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Enterprise-Based/Jagna%20Calamay%20Industry/Jagna%20Calamay%20Industry%201.jpg?raw=true',
+            description: '',
+            location: {
+                center: [124.36216, 9.64421],
+                zoom: 17,
+                pitch: 60,
+                bearing: -10.2,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '14-identifier',
+            alignment: 'left',
+            hidden: false,
+            title: 'MUSFA Bohol Organic and Strawberry Farm',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Enterprise-Based/Jagna%20Calamay%20Industry/Jagna%20Mayana%202.JPEG?raw=true',
+            description: '',
+            location: {
+                center: [124.33180, 9.74064],
+                zoom: 17,
+                pitch: 60,
+                bearing: 250
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
