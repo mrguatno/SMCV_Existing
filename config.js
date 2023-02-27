@@ -228,7 +228,7 @@ var config = {
             location: {
                 center: [123.89830, 9.78066],
                 zoom: 17,
-                pitch: 60,
+                pitch: 45,
                 bearing: 43.2
             },
             mapAnimation: 'flyTo',
@@ -272,7 +272,7 @@ var config = {
             location: {
                 center: [124.06701, 10.02954],
                 zoom: 17,
-                pitch: 60,
+                pitch: 45,
                 bearing: 43.2
             },
             mapAnimation: 'flyTo',
@@ -292,7 +292,7 @@ var config = {
                 center: [123.94875, 9.93587],
                 zoom: 17,
                 pitch: 60,
-                bearing: -180,
+                bearing: -45,
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
                 // slowly and zoom out almost completely before starting
@@ -315,8 +315,8 @@ var config = {
             description: '',
             location: {
                 center: [123.90643, 9.91921],
-                zoom: 17,
-                pitch: 60,
+                zoom: 14,
+                pitch: 45,
                 bearing: 250
             },
             mapAnimation: 'flyTo',
@@ -359,9 +359,9 @@ var config = {
             description: '',
             location: {
                 center: [124.33180, 9.74064],
-                zoom: 17,
-                pitch: 60,
-                bearing: 250
+                zoom: 14,
+                pitch: 45,
+                bearing: 90,
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
@@ -388,77 +388,6 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
-        {
-            id: 'eight-identifier',
-            alignment: 'right',
-            hidden: false,
-            title: 'The Abatan Community',
-            image: 'https://drive.google.com/uc?export=view&id=1jgHpZE4LYlPdsMtR7cKkdkVd0CTVQb82',
-            description: 'Board a local banca boat to visit the five ancient communities who live along the Abatan river in Bohol.During the tour, you’ll also get to see the local nipa weaving, which is used to make roofing in the villages. Further upstream is another community whose livelihood is bamboo furniture making and basket weaving. You’ll even get a chance to try traditional weaving with help from the skilled women in the village. The real highlight though is the cultural performance, where locals from the different communities tell their story through dance, depicting their daily routines and traditions.',
-            location: {
-                center: [123.87380, 9.72568],
-                zoom: 14,
-                pitch: 60,
-                bearing: -43.2,
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'ninth-identifier',
-            alignment: 'left',
-            hidden: false,
-            title: 'Cambuhat Oyster Farm',
-            image: 'https://drive.google.com/uc?export=view&id=1iocBzPerFNxDCWk8DX7cUB4ar87vpMQq',
-            description: 'The Cambuhat Oyster farm is situated in the municipality of Buenavista, Bohol. It is part of an eco-friendly tourism enterprise by the Cambuhat Enterprise Development & Fisheries Association (CEDFA). Tourists get to see how Oysters are planted and harvested and also learn about Mangroves’preservation in this tour.',
-            location: {
-                center: [124.10014, 10.06201],
-                zoom: 15,
-                pitch: 60,
-                bearing: -43.2
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'slug-style-id',
-            alignment: 'left',
-            hidden: true,
-            title: 'The Creative Village',
-            location: {
-                center: [124.1637, 9.9],
-                zoom: 9.8,
-                pitch: 0,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
+        
     ]
 };
