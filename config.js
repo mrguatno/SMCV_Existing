@@ -65,12 +65,7 @@ var config = {
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [],
-            onChapterExit: [
-                   {
-                         layer: 'second-identifier',
-                         opacity: 10
-                   }
-            ]
+            onChapterExit: []
         },
         {
             id: 'third-identifier',
