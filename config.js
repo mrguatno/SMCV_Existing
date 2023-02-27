@@ -14,10 +14,10 @@ var config = {
     chapters: [
         {
             id: 'slug-style-id',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
             title: 'Existing Creative Villages in the Province of Bohol',
-            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/screenshot.png?raw=true',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Brown%20Indonesia%20Collage%20Photos.png?raw=true',
             description: '',
             location: {
                 center: [124.1637, 9.9],
