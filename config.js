@@ -47,7 +47,7 @@ var config = {
             alignment: 'fully',
             hidden: false,
             title: '',
-            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Enterprise-Based/ebcv2.png?raw=true',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Enterprise-Based/ebcv3.png?raw=true',
             description: '',
             location: {
                 center: [124.1637, 9.9],
@@ -374,7 +374,7 @@ var config = {
             alignment: 'fully',
             hidden: false,
             title: '',
-            image: 'https://drive.google.com/uc?export=view&id=1BIXydAKKNOGi396iDUN-l69Z4Q9bcUMz',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Nature%20Based/nbcv.png?raw=true',
             description: '',
             location: {
                 center: [124.1637, 9.9],
@@ -388,6 +388,195 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
-        
+        {
+            id: 'N1-identifier',
+            alignment: 'right',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [123.91220, 9.62345],
+                zoom: 14,
+                pitch: 60,
+                bearing: -43.2,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'N2-identifier',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [123.95403, 9.61492],
+                zoom: 14,
+                pitch: 60,
+                bearing: 43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'N3-identifier',
+            alignment: 'right',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [123.91220, 9.62345],
+                zoom: 14,
+                pitch: 60,
+                bearing: -43.2,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'N4-identifier',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [123.95403, 9.61492],
+                zoom: 14,
+                pitch: 60,
+                bearing: 43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'N5-identifier',
+            alignment: 'right',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [123.91220, 9.62345],
+                zoom: 14,
+                pitch: 60,
+                bearing: -43.2,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'N6-identifier',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [123.95403, 9.61492],
+                zoom: 14,
+                pitch: 60,
+                bearing: 43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'N7-identifier',
+            alignment: 'right',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [123.91220, 9.62345],
+                zoom: 14,
+                pitch: 60,
+                bearing: -43.2,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'N8-identifier',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [123.95403, 9.61492],
+                zoom: 14,
+                pitch: 60,
+                bearing: 43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'N9-identifier',
+            alignment: 'right',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [123.91220, 9.62345],
+                zoom: 14,
+                pitch: 60,
+                bearing: -43.2,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'N10-identifier',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [123.95403, 9.61492],
+                zoom: 14,
+                pitch: 60,
+                bearing: 43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
     ]
 };
