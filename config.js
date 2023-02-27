@@ -43,6 +43,25 @@ var config = {
             ]
         },
         {
+            id: 'additional-chapter',
+            alignment: 'fully',
+            hidden: false,
+            title: '',
+            image: 'https://drive.google.com/uc?export=view&id=1BIXydAKKNOGi396iDUN-l69Z4Q9bcUMz',
+            description: '',
+            location: {
+                center: [124.1637, 9.9],
+                zoom: 9.8,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
             id: 'second-identifier',
             alignment: 'right',
             hidden: false,
