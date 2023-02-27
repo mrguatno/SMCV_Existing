@@ -3,13 +3,14 @@ var config = {
     accessToken: 'pk.eyJ1IjoibXJndWF0bm8iLCJhIjoiY2xlbGh2bW5vMHZrZDNxbjR2ajRxdnd3OCJ9.Aj5fI1VF5Adu1XJ51z9sOw',
     showMarkers: true,
     markerColor: '#3FB1CE',
+    use3dTerrain: true, //set true for enabling 3D maps.
     //projection: 'equirectangular',
     //Read more about available projections here
     //https://docs.mapbox.com/mapbox-gl-js/example/projections/
     theme: 'dark',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    footer: 'Step Up Consulting – Ideas that serve. Service that works. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'Step Up Consulting – Ideas that serve. Service that works. <br> Created using Mapbox Storytelling template.',
     chapters: [
         {
             id: 'slug-style-id',
@@ -64,7 +65,12 @@ var config = {
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [],
-            onChapterExit: []
+            onChapterExit: [
+                   {
+                         layer: 'second-identifier',
+                         opacity: 10
+                   }
+            ]
         },
         {
             id: 'third-identifier',
