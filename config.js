@@ -43,11 +43,11 @@ var config = {
             ]
         },
         {
-            id: 'additional-chapter',
+            id: 'ebcv-chapter',
             alignment: 'fully',
             hidden: false,
             title: '',
-            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Enterprise-Based/ebcv.png?raw=true',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Enterprise-Based/ebcv2.png?raw=true',
             description: '',
             location: {
                 center: [124.1637, 9.9],
