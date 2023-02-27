@@ -370,7 +370,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'additional-chapter',
+            id: 'additional-chapter2',
             alignment: 'fully',
             hidden: false,
             title: '',
@@ -393,7 +393,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Lamanoc Island Tour',
-            image: '',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Nature%20Based/Anda%20Lamanoc%20Island%20Tour/Anda%20Lamanok.jpg?raw=true',
             description: '',
             location: {
                 center: [124.59624, 9.80558],
@@ -412,7 +412,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Sinandigan Mangrove Reforestation',
-            image: '',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Nature%20Based/Ubay%20Sinandingan%20Mangrove%20Reforestation/Ubay%20Sinandingan%20Mangrove%20Reforestation.jpg?raw=true',
             description: '',
             location: {
                 center: [124.54303, 10.03128],
@@ -431,7 +431,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Talibon Interpretive Center Learning Tour',
-            image: '',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Nature%20Based/Talibon%20Interpretive%20Center%20Learning%20Tour/Talibon%20Bongan%20Sandbar.jpg?raw=true',
             description: '',
             location: {
                 center: [124.32671, 10.15086],
@@ -450,7 +450,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Banacon Mangrove Forest',
-            image: '',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Nature%20Based/Getafe%20Banacon%20Mangrove%20Forest/Getafe%20Banacon%20Mangrove.JPG?raw=true',
             description: '',
             location: {
                 center: [124.18076, 10.19780],
@@ -469,7 +469,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Cabgan Island Bat & Mangrove Tour',
-            image: '',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Nature%20Based/Tubigon%20Cabgan%20Island%20Bat%20_%20Mangrove%20Tour/Tubigon%20Cabgan%20Island%20Bat%20_%20Mangrove%20Tour%202.jpg?raw=true',
             description: '',
             location: {
                 center: [123.99351, 9.97048],
@@ -488,7 +488,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Cabilao Community Life Adventure',
-            image: '',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Nature%20Based/Loon%20Cabilao%20Community%20Life%20Adventure/Loon%20Cabilao%20Life%20Adventure.jpg?raw=true',
             description: '',
             location: {
                 center: [123.77158, 9.87756],
@@ -507,7 +507,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'SAVMA Mangrove adventure',
-            image: '',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Nature%20Based/Maribojoc%20SAVMA%20Mangrove%20adventure/MAribojoc%20SAVIMA%20Mangrove.jpg?raw=true',
             description: '',
             location: {
                 center: [123.87705, 9.72953],
@@ -526,7 +526,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Kawasan and Agri-Farm Activities',
-            image: '',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Nature%20Based/Balilihan%20Kawasan%20and%20Agri-Farm%20Activities/Balilihan%20Kawasan%20falls%202.jpg?raw=true',
             description: '',
             location: {
                 center: [123.94463, 9.76683],
@@ -545,11 +545,11 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Bingag Marine Protected Area',
-            image: '',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Nature%20Based/Dauis%20Bingag%20Marine%20Protected%20Area/Bingag%20Marine%20Protected%20.JPEG?raw=true',
             description: '',
             location: {
-                center: [123.86899, 9.61795],
-                zoom: 14,
+                center: [123.79786, 9.62552],
+                zoom: 17,
                 pitch: 60,
                 bearing: -43.2,
             },
@@ -564,16 +564,130 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Loboc River Cruise',
-            image: '',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Nature%20Based/Loboc%20River%20Cruise/Loboc%20River%20Cruise.jpg?raw=true',
             description: '',
             location: {
                 center: [124.03005, 9.63607],
+                zoom: 17,
+                pitch: 60,
+                bearing: 43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'additional-chapter3',
+            alignment: 'fully',
+            hidden: false,
+            title: '',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Community%20Based/cbcv.png?raw=true',
+            description: '',
+            location: {
+                center: [124.1637, 9.9],
+                zoom: 9.8,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'C1-identifier',
+            alignment: 'right',
+            hidden: false,
+            title: 'Tribu Eskaya Learning Tour - Duero',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Community%20Based/Duero%20Tribu%20Eskaya%20Learning%20Tour/Duero%20Eskaya%20Tribe%204.jpg?raw=true',
+            description: '',
+            location: {
+                center: [124.35399, 9.76064],
+                zoom: 14,
+                pitch: 60,
+                bearing: -43.2,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'C2-identifier',
+            alignment: 'left',
+            hidden: false,
+            title: 'Baybayon Fishing Village Tour - Mabini',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Community%20Based/Mabini%20Baybayon%20Fishing%20Village%20Tour/Mabini%20Baybayob%20Fishing%20Village%20Tour%203.jpg?raw=true',
+            description: '',
+            location: {
+                center: [124.56055, 9.91979],
                 zoom: 14,
                 pitch: 60,
                 bearing: 43.2
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'C3-identifier',
+            alignment: 'right',
+            hidden: false,
+            title: 'Tagbilaran Community Village',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Community%20Based/Tagbilaran%20Heritage%20Tour/Tagbilaran%20Heritage%20Tour.jpg.crdownload.jpg?raw=true',
+            description: '',
+            location: {
+                center: [123.85356, 9.64609],
+                zoom: 14,
+                pitch: 60,
+                bearing: -43.2,
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'C4-identifier',
+            alignment: 'left',
+            hidden: false,
+            title: 'Abatan Community Life Tour',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Community%20Based/Cortes%20Abatan%20Community%20Life%20Tour/Cortes%20Abatan%20Community%20Life%20Tour.JPG?raw=true',
+            description: '',
+            location: {
+                center: [123.87377, 9.72565],
+                zoom: 17,
+                pitch: 60,
+                bearing: 43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'additional-chapter3',
+            alignment: 'fully',
+            hidden: true,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [124.1637, 9.9],
+                zoom: 9.8,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
