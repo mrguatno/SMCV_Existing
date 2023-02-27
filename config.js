@@ -14,7 +14,7 @@ var config = {
     chapters: [
         {
             id: 'slug-style-id',
-            alignment: 'center',
+            alignment: 'left',
             hidden: false,
             title: 'Existing Creative Villages in the Province of Bohol',
             image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Brown%20Indonesia%20Collage%20Photos.png?raw=true',
@@ -41,31 +41,6 @@ var config = {
                 //     opacity: 0
                 // }
             ]
-        },
-        {
-            id: 'second-identifier',
-            alignment: 'right',
-            hidden: false,
-            title: 'Tarsier Sanctuary',
-            image: 'https://drive.google.com/uc?export=view&id=14tnFL9fUfeGFR3OSAPkvMtWCKNEca27R',
-            description: 'The Philippine Tarsier Sanctuary is an eco-tourism destination located in Corella, Bohol. It is where you can see and visit the smallest primates that are mostly found in Southeast Asia — tarsiers.',
-            location: {
-                center: [123.9504995, 9.6898966],
-                zoom: 14,
-                pitch: 60,
-                bearing: -43.2,
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
         },
         {
             id: 'second-identifier',
