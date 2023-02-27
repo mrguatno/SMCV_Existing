@@ -47,7 +47,7 @@ var config = {
             alignment: 'fully',
             hidden: false,
             title: '',
-            image: 'https://drive.google.com/uc?export=view&id=1BIXydAKKNOGi396iDUN-l69Z4Q9bcUMz',
+            image: 'https://github.com/mrguatno/SMCV_Existing/blob/main/images/Existing%20Creative%20Villages/Enterprise-Based/ebcv.png?raw=true',
             description: '',
             location: {
                 center: [124.1637, 9.9],
